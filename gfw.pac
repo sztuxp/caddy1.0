@@ -10431,6 +10431,7 @@ var cnips = [
 ];
 
 var directDomains = {
+  "zaobao.com": 1,
   "xiaomi.cn": 1,
   "caixin.com": 1,
   "freesun.ml": 1,
@@ -16036,7 +16037,6 @@ var domainsUsingProxy = {
   "zacebook.com": 1, 
   "zalmos.com": 1, 
   "zannel.com": 1, 
-  "zaobao.com": 1,
   "zaobao.com.sg": 1, 
   "zaozon.com": 1, 
   "zapto.org": 1, 

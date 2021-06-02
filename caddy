@@ -216,9 +216,9 @@ getcaddy () {
 	if uname -m | grep -q x86_64; then
 		cpubits="amd64"
 		cpubitsname="64bit..."
-#	elif uname -m | grep -q aarch64; then
-#		cpubits="arm64"
-#		cpubitsname="AArch64..."
+	elif uname -m | grep -q aarch64; then
+		cpubits="arm64"
+		cpubitsname="AArch64..."
 	elif uname -m | grep -q 86; then
 		cpubits="i386"
 		cpubitsname="32bit..."
